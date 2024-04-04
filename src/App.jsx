@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Adminlayout from "./Util/Admin/Adminlayout";
 import Dashboard from "./pages/Admin/Dashboard";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +19,7 @@ function App() {
   const token = localStorage.getItem("token");
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route>
           <Route
@@ -87,7 +87,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
