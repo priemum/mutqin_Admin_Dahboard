@@ -1,0 +1,32 @@
+.lay-out {
+  height: 100vh;
+
+  background-color: #f0f4f9;
+  color: #000000;
+}
+.admin-side-bar {
+  min-width: 250px;
+  padding-top: 24px;
+}
+@media (max-width: 800px) {
+  .admin-side-bar {
+    position: fixed;
+    z-index: 20;
+    height: 100vh;
+    padding-top: 0px;
+  }
+}
+
+.dashboard-container {
+  width: 95%;
+}
+
+.closeIcon {
+  cursor: pointer;
+  position: fixed;
+}
+@media (min-width: 800px) {
+  .closeIcon {
+    position: absolute;
+  }
+}

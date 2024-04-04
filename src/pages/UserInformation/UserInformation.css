@@ -1,0 +1,15 @@
+.button-pink {
+  background-color: #ed5ab3;
+  color: aliceblue;
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  padding: 6px !important;
+  cursor: pointer;
+}
+.button-pink:hover {
+  background-color: #053969 !important;
+}
+.progress-bar {
+  background-color: #ed5ab3 !important;
+}

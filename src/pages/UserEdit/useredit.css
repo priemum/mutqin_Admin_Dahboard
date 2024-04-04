@@ -1,0 +1,17 @@
+.btn-pink{
+background-color: palevioletred;
+    border-style: none;
+ font-size:0.90rem;
+ font-weight: 600;
+
+}
+.btn-blue{
+    background-color:#003087;
+        border-style: none;
+        color:azure;
+        font-size:small;
+        font-weight: 600;
+        font-size:0.90rem;
+       
+    
+    }

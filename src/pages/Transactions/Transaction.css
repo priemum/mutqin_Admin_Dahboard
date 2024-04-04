@@ -1,0 +1,166 @@
+.header0title {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.header1title {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.table-contianer {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 25px;
+  width: 100%;
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* max-width: 700px; */
+}
+
+.formik-input,
+.formik-input:focus,
+.formik-input:active {
+  border: none !important;
+
+  outline: none;
+}
+
+.col-title {
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 90px;
+}
+
+.userName-title {
+  font-size: small;
+  font-weight: 500;
+}
+
+.userName-email {
+  font-size: 9px;
+}
+
+.status {
+  padding: 5px 2px;
+  border-radius: 25px;
+
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.Plan_Name_plan {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Plan_Name_words {
+  font-size: 10px;
+}
+
+.price-plan {
+  font-size: 10px;
+}
+
+.paid-plan {
+  font-size: 12px;
+}
+
+.plan-period {
+  padding: 5px 0;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.button-buy {
+  background-color: #ffdb4533;
+}
+.button-edit,
+.button-delete {
+  background-color: #d9d9d9;
+}
+
+.button-edit,
+.button-buy,
+.button-delete {
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+.button-delete:hover::after,
+.button-buy:hover::after,
+.button-edit:hover::after {
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  font-size: 8px;
+  background-color: #d9d9d9;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.button-buy:hover::after {
+  content: "View User";
+  width: 50px;
+}
+
+.button-edit:hover::after {
+  content: "Edit User";
+  width: 60px;
+}
+
+.button-delete:hover::after {
+  content: "Delete User";
+  width: 60px;
+}
+
+.button-delete:hover {
+  background-color: #e21b1b1a;
+  color: red !important;
+}
+
+.button-edit:hover {
+  background-color: #009cde1a;
+  color: #009cde !important;
+}
+.view-button {
+  border: none;
+  outline: none;
+  font-size: 7px;
+  font-weight: 500;
+  text-align: start;
+  border-radius: 2px;
+}
+
+.page-number {
+}
+
+.page-text {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+
+* {
+  --bs-pagination-active-bg: #001a72 !important;
+  --bs-pagination-bg: white !important;
+
+  --bs-pagination-disabled-bg: #ffffff;
+  --bs-pagination-color: #001a72 !important;
+}
